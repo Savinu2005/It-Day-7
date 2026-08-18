@@ -70,6 +70,7 @@ const products = [
 {name: "train",instock: false, price: 400},
 ];
 
+// final watch Line
 
 // let inStockItems = products.filter(product => product.inStock == false);
 
@@ -83,34 +84,50 @@ const products = [
 //     return product.inStock == true;
 // }
 
-
 // console.log(inStockItems);
 
+// Step 01 ------------------------------
+// function getSum(num1,num2){
+//     return num1+num2;
+// }
 
+// getSum(10,20);
 
-// function getSum(num1, num2) {
-//     return num1 + num2;
-// }   
+// Step 02 ------------------------------------
 
-// console.log(getSum(10, 20));
+// let getSum = function (num1, num2){
+//     return num1+num2;
+// }
 
+// console.log(getSum(10,20));
+
+// Step 03 --------------------------------------
 
 // let getSum = (num1, num2) => {
-//     return num1 + num2;
-// };
+//     return num1+num2;
+// }
 
-// console.log(getSum(10, 20));
+// console.log(getSum(10,20));
+
+// Step 04 --------------------------------------
+
+// let sample = txtValue =>{
+//     return txtValue;
+// }
+
+// console.log(sample("Hi saman"));
+
+// Step 05 -----------------------------------------
+
+// let getSum = (num1, num2) => num1+num2;
+
+// console.log(getSum(10,20));
+
+// Step 06 --------------------------------------
+
+// let sample = txtValue => txtValue;
+
+// console.log(sample("Hi saman"));
 
 
 
-let sample = (txtValue) => {
-    return txtValue;
-}
-
-console.log(sample("Hello World!"));
-
-
-
-let sample2 = txtValue => txtValue;
-
-console.log(sample2("Hello World!"));

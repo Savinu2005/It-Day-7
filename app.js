@@ -50,13 +50,53 @@
 // console.log(typeof customerList);
 
 
-const customerList = [];
+// const customerList = [];
 
 
-customerList.push(1);
-customerList.push(2);
-customerList.push(3);
+// customerList.push(1);
+// customerList.push(2);
+// customerList.push(3);
 
-let revAr = customerList.reverse();
+// let revAr = customerList.reverse();
 
-console.log(revAr);
+// console.log(revAr);
+
+
+
+const products = [
+{name: "bus",instock: true, price: 100},
+{name: "car",instock: false, price: 200},
+{name: "bike",instock: true, price: 300},
+{name: "train",instock: false, price: 400},
+];
+
+
+// let inStockItems = products.filter(product => product.inStock == false);
+
+// let inStockItems = products.filter(
+//     function (product) {
+//         return productFilter(product)
+//     }
+// )
+
+// function productFilter(product) {
+//     return product.inStock == true;
+// }
+
+
+// console.log(inStockItems);
+
+
+
+// function getSum(num1, num2) {
+//     return num1 + num2;
+// }   
+
+// console.log(getSum(10, 20));
+
+
+let getSum = (num1, num2) => {
+    return num1 + num2;
+};
+
+console.log(getSum(10, 20));

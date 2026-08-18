@@ -95,8 +95,22 @@ const products = [
 // console.log(getSum(10, 20));
 
 
-let getSum = (num1, num2) => {
-    return num1 + num2;
-};
+// let getSum = (num1, num2) => {
+//     return num1 + num2;
+// };
 
-console.log(getSum(10, 20));
+// console.log(getSum(10, 20));
+
+
+
+let sample = (txtValue) => {
+    return txtValue;
+}
+
+console.log(sample("Hello World!"));
+
+
+
+let sample2 = txtValue => txtValue;
+
+console.log(sample2("Hello World!"));

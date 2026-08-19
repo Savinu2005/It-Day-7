@@ -63,13 +63,6 @@
 
 
 
-const products = [
-{name: "bus",instock: true, price: 100},
-{name: "car",instock: false, price: 200},
-{name: "bike",instock: true, price: 300},
-{name: "train",instock: false, price: 400},
-];
-
 // final watch Line
 
 // let inStockItems = products.filter(product => product.inStock == false);
@@ -128,6 +121,19 @@ const products = [
 // let sample = txtValue => txtValue;
 
 // console.log(sample("Hi saman"));
+
+// const productsList = [
+//     { name: "bun", inStock: true },
+//     { name: "car", inStock: false },
+//     { name: "bat", inStock: true },
+//     { name: "van", inStock: false },
+// ];
+
+// for(product of productsList){
+//     console.log(product);
+// }
+
+// productsList.forEach(product => console.log(product));
 
 
 

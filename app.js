@@ -137,3 +137,16 @@
 
 
 
+// const letterList = ["B", "A", "D", "C", "F", "E", "G", "H", "I", "J"];
+
+// let sortAe = letterList.sort();
+ 
+// console.log(sortAe);
+
+
+
+// const employeSalary = [75000,25000,45000,55000];
+
+// let newSalaryArry = employeSalary.map(salary=>salary*2);
+
+// console.log(newSalaryArry);
